@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+.rose {
+  position: absolute;
+  z-index: -2;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 94%;
+  background-color: #f9bdbd;
+  border-bottom-left-radius: 200px;
+}
+.icon-back {
+  position: absolute;
+  z-index: -1;
+  right: 200px;
+  bottom: 80px;
+}
+.icon-back img {
+  width: 382px;
+}
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /* padding: 2% 1%; */
+  z-index: 1;
+}
+header {
+  width: 100%;
+  height: 10%;
+  /* padding: 20px 0 0 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.woodies {
+  width: 36%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.woodies p {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+nav {
+  width: 50%;
+}
+nav ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+nav ol li {
+  color: #222222;
+}
+nav ol li:first-child {
+  color: #daa520;
+  font-weight: bold;
+}
+.signup {
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
+.signup-button {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 4px;
+}
+.signup-button p {
+  font-weight: 700;
+}
+.content {
+  width: 100% - 170px;
+  height: 80%;
+  padding: 0 50px 0 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+}
+.text1 {
+  margin-bottom: 20px;
+}
+main .text1 p {
+  font-weight: 300;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  color: #3e3f43;
+}
+
+main .text1 span {
+  font-weight: 600;
+}
+main .text2 p {
+  font-weight: 700;
+  font-size: 72px;
+  color: #313235;
+}
+button {
+  width: 200px;
+  background-color: #daa520;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+.space {
+  width: 100%;
+  height: 10%;
+}
