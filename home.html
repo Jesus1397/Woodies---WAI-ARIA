@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Woodies - Home</title>
+    <link rel="icon" href="./images/icon.png" />
     <link rel="stylesheet" href="./home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,8 +15,9 @@
     />
   </head>
   <body>
-    <!--PART ROSE-->
+    <!-- w: 1152 / h: 864 -->
 
+    <!--PART ROSE-->
     <div class="rose"></div>
     <div class="icon-back">
       <img src="./images/icon-big.png" alt="" srcset="" />
@@ -23,37 +25,49 @@
     <div class="container">
       <!--HEADER-->
       <header>
-        <div class="woodies">
+        <div tabindex="1" class="woodies" role="banner">
           <img src="./images/icon.png" alt="" />
           <p>WOODIES</p>
         </div>
         <nav>
-          <ol>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>How it works</li>
-            <li>Categories</li>
-            <li>Testimony</li>
+          <ol tabindex="2" role="menu">
+            <li role="menuitem" tabindex="3">
+              <a aria-label="Home button">Home</a>
+            </li>
+            <li role="menuitem" tabindex="4">
+              <a aria-label="About us button">About Us</a>
+            </li>
+            <li role="menuitem" tabindex="5">
+              <a aria-label="How  it works button">How it works</a>
+            </li>
+            <li role="menuitem" tabindex="6">
+              <a aria-label="Categories button">Categories</a>
+            </li>
+            <li role="menuitem" tabindex="7">
+              <a aria-label="Testimony button">Testimony</a>
+            </li>
           </ol>
         </nav>
         <div class="signup">
-          <div class="signup-button">
-            <p>SIGN UP</p>
-          </div>
+          <a tabindex="8" aria-label="Sign up button" class="signup-button">
+            SIGN UP
+          </a>
         </div>
       </header>
       <!--MAIN-->
       <div class="content">
         <main>
-          <div class="text1">
-            <p class="text1">Are you looking for <span>woodden</span></p>
-            <p class="text1"><span> furniture </span> for your place?</p>
+          <div tabindex="8" role="contentinfo" class="content-text">
+            <div class="text1">
+              <p class="text1">Are you looking for <span>woodden</span></p>
+              <p class="text1"><span> furniture </span> for your place?</p>
+            </div>
+            <div class="text2">
+              <p class="text2">This is the</p>
+              <p class="text2">Right Place</p>
+            </div>
           </div>
-          <div class="text2">
-            <p class="text2">This is the</p>
-            <p class="text2">Right Place</p>
-          </div>
-          <button>Explore Furniture</button>
+          <button aria-label="Explore Furniture">Explore Furniture</button>
         </main>
         <div class="image">
           <img src="./images/table.png" alt="" srcset="" />

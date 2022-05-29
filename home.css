@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
 .rose {
   position: absolute;
@@ -11,13 +12,13 @@
   width: 30%;
   height: 94%;
   background-color: #f9bdbd;
-  border-bottom-left-radius: 200px;
+  border-bottom-left-radius: 100px;
 }
 .icon-back {
   position: absolute;
   z-index: -1;
-  right: 200px;
-  bottom: 80px;
+  right: 218px;
+  bottom: 64px;
 }
 .icon-back img {
   width: 382px;
@@ -83,9 +84,14 @@ nav ol li:first-child {
   border-style: solid;
   border-color: black;
   border-radius: 4px;
-}
-.signup-button p {
   font-weight: 700;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+}
+a:hover {
+  cursor: pointer;
 }
 .content {
   width: 100% - 170px;
@@ -102,7 +108,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
 }
 .text1 {
   margin-bottom: 20px;
@@ -137,13 +143,19 @@ button {
   margin-top: 20px;
   font-weight: 700;
 }
+button:hover {
+  cursor: pointer;
+}
 .image {
   width: 50%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: blue;
+  align-items: flex-end;
+  padding-bottom: 80px;
+}
+.image img {
+  height: 80%;
+  margin-left: 10px;
 }
 
 .space {
